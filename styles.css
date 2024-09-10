@@ -1,13 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(45deg, #5fff94, #feb47b, #61daff, #d0e9f4);
+
     text-align: center;
 }
 header {
     background-color: #333;
-    color: #fff;
+    background: linear-gradient(45deg, #0e2c18, #feb47b, #0a333f, #d0e9f4);
     padding: 20px;
 }
 .cta-button {
@@ -18,11 +19,36 @@ header {
     text-decoration: none;
     border-radius: 5px;
 }
+.cta-button:hover{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #c723a3;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid green;
+}
 section {
     padding: 20px;
+    font-size: larger;
+}
+section button{
+    color: rgb(177, 248, 10);
+    font-size: larger;
+    background: linear-gradient(45deg, #110c1a, #d0e9f4);
+
+}
+section input{
+    color: rgb(177, 248, 10);
+    font-size: larger;
+    background: linear-gradient(45deg, #110c1a, #d0e9f4);
+
 }
 footer {
-    background-color: #333;
+    background: linear-gradient(45deg, #ff5fe4, #34ce15, #110c1a, #d0e9f4);
     color: #fff;
     padding: 10px;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
 }
