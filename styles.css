@@ -51,6 +51,8 @@ footer {
     position:fixed;
     bottom: 0px;
     width: 100%;
+    border-top:5px solid yellow;
+
 }
 .img{
     margin: 0;
